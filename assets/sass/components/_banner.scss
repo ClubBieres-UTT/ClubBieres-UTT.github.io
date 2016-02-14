@@ -1,0 +1,34 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-video {
+    z-index: -1;
+}
+
+.banner-inner {
+    z-index: 1;
+    color: #fff;
+
+    h1 {
+        font-family: "Great Vibes";
+        font-size: 6em;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    button {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}
