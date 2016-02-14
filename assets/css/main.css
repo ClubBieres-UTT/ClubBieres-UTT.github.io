@@ -529,10 +529,10 @@ picture {
 
 @font-face {
   font-family: "Great Vibes";
-  src: url("/assets/fonts/GreatVibes-Regular.otf") format("opentype"); }
+  src: url("assets/fonts/GreatVibes-Regular.otf") format("opentype"); }
 @font-face {
   font-family: "Open Sans Condensed";
-  src: url("/assets/fonts/OpenSans-CondLight.ttf") format("truetype"); }
+  src: url("assets/fonts/OpenSans-CondLight.ttf") format("truetype"); }
 html {
   box-sizing: border-box; }
 
@@ -2648,8 +2648,8 @@ html {
       width: 100%;
       table-layout: fixed; } }
   .side-image .images-wrapper {
-    background: url("/assets/images/beer.png");
-    background: url("/assets/images/beer.png");
+    background: url("assets/images/beer.png");
+    background: url("assets/images/beer.png");
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;

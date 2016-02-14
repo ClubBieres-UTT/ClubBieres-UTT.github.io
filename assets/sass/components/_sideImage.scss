@@ -18,7 +18,7 @@
   }
 
   .images-wrapper {
-    @include background(url("/assets/images/beer.png"));
+    @include background(url("assets/images/beer.png"));
     background-color: $side-image-background-top;
     background-size: contain;
     background-repeat: no-repeat;

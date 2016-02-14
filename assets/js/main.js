@@ -34,7 +34,7 @@ $(function() {
         if (!beer)
             return;
 
-        $(this).children('.images-wrapper').css('background-image', 'url("/assets/images/'+camelize(beer.name)+'.jpg")');
+        $(this).children('.images-wrapper').css('background-image', 'url("assets/images/'+camelize(beer.name)+'.jpg")');
         $(this).find('h4').text(beer.type);
         $(this).find('h1').text(beer.name);
         $(this).find('p').text(beer.description);
