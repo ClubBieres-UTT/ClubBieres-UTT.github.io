@@ -529,10 +529,10 @@ picture {
 
 @font-face {
   font-family: "Great Vibes";
-  src: url("assets/fonts/GreatVibes-Regular.otf") format("opentype"); }
+  src: url("../fonts/GreatVibes-Regular.otf") format("opentype"); }
 @font-face {
   font-family: "Open Sans Condensed";
-  src: url("assets/fonts/OpenSans-CondLight.ttf") format("truetype"); }
+  src: url("../fonts/OpenSans-CondLight.ttf") format("truetype"); }
 html {
   box-sizing: border-box; }
 
@@ -540,8 +540,8 @@ html {
   box-sizing: inherit; }
 
 /*!
- *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ *  Font Awesome 4.5.0 by @davegandy - http:/fontawesome.io - @fontawesome
+ *  License - http:/fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
@@ -2648,8 +2648,8 @@ html {
       width: 100%;
       table-layout: fixed; } }
   .side-image .images-wrapper {
-    background: url("assets/images/beer.png");
-    background: url("assets/images/beer.png");
+    background: url("../images/beer.png");
+    background: url("../images/beer.png");
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
